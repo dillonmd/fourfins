@@ -209,4 +209,95 @@ a {
 	}
 }
 
-/* About */
+/* Media Queries */
+
+/* IPad */
+@media only screen 
+  and (min-device-width: 768px) 
+  and (max-device-width: 1024px) 
+  and (-webkit-min-device-pixel-ratio: 1) {
+	.form{
+	position: absolute;
+	width: 400px;
+	margin: 0 auto;
+	left: 25%;
+	}
+}
+
+@media only screen 
+  and (min-device-width: 768px) 
+  and (max-device-width: 1024px) 
+  and (orientation: landscape) 
+  and (-webkit-min-device-pixel-ratio: 1) {
+	.form{
+		position: absolute;
+		width: 400px;
+		margin: 0 auto;
+		left: 25%;
+		}
+}
+
+/* Ipad Pro */
+
+@media only screen 
+  and (min-device-width: 768px) 
+  and (max-device-width: 1024px) 
+  and (-webkit-min-device-pixel-ratio: 2) {
+	.form{
+		position: absolute;
+		width: 400px;
+		margin: 0 auto;
+		left: 30%;
+		}
+}
+
+/* Galaxy S5 */
+
+@media screen 
+  and (device-width: 360px) 
+  and (device-height: 640px) 
+  and (-webkit-device-pixel-ratio: 3) {
+	header{
+		width: 100%;
+		max-height: 80px;
+	-webkit-box-shadow: 0px 0px 0px 0px rgba(0,0,0,0.75);
+	-moz-box-shadow: 0px 0px 0px 0px rgba(0,0,0,0.75);
+	box-shadow: 0px 0px 0px 0px rgba(0,0,0,0.75);
+	-webkit-border-radius: 0px;
+	-moz-border-radius: 0px;
+	border-radius: 0px;
+	}
+
+	.container{
+		max-width: 100%;
+		width: 100%
+	}
+
+	.form{
+		width: 60%;
+		height: 65%;
+	}
+
+	.form h1{
+		font-size: 0.8em;
+	}
+
+	.form label {
+		font-size: 0.2em;
+	}
+
+	.form input {
+		max-width: 100%;
+		max-height: 10%;
+	}
+
+	.form textarea {
+		max-width: 100%;
+		max-height: 50%;
+	}
+
+	.btn {
+		position: absolute;
+		left: 27%;
+	}
+  }	
