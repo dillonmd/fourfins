@@ -1,7 +1,11 @@
 * {
     box-sizing: border-box;
     font-family: 'Roboto', sans-serif;
-
+}
+html {
+	margin: 0px;
+	padding: 0px;
+	scroll-behavior: smooth;
 }
 body {
     font-family: 'Roboto', sans-serif;
@@ -207,6 +211,30 @@ a {
 		display:block;
   	   margin:0.4em auto;
 	}
+}
+
+/* Product Info */
+
+#product {
+	padding-left: 18%;
+	padding-right: 18%;
+	margin-top: 48px;
+	margin-bottom: 48px; 
+}
+
+#product h1, h2, h3 {
+	text-align: center;
+}
+
+#product p {
+	line-height: 1.8;
+	letter-spacing: 1.2px; 
+	font-size: 1.3em;
+}
+
+#product br {
+	display: block;
+	margin: 10px 0;
 }
 
 /* Media Queries */
