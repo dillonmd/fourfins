@@ -219,7 +219,8 @@ a {
 	padding-left: 18%;
 	padding-right: 18%;
 	margin-top: 48px;
-	margin-bottom: 48px; 
+	margin-bottom: 48px;
+	font-family: 'Roboto', sans-serif;
 }
 
 #product h1, h2, h3 {
@@ -227,9 +228,8 @@ a {
 }
 
 #product p {
-	line-height: 1.8;
 	letter-spacing: 1.2px; 
-	font-size: 1.3em;
+	font-size: 1.4em;
 }
 
 #product br {
